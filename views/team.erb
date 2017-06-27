@@ -5,10 +5,8 @@
   <title>Basketball Team</title>
  </head>
  <body>
- 
-
-
+   <% @team.each do |name| %>
+    <li><%= name[0]: name[1] %><li>
+  <% end %>
  </body>
 </html>
-
-
